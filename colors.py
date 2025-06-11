@@ -7,6 +7,7 @@ class Colors:
     purple = [166,0,247]
     cyan = [21,204,209]
     blue = [13,64,216]
+    light_blue = [173, 216, 230]  # Light blue color for the score rectangle
 
     @classmethod 
     def get_cell_colors(cls):
@@ -18,5 +19,6 @@ class Colors:
             cls.yellow, 
             cls.purple, 
             cls.cyan, 
-            cls.blue
+            cls.blue,
+            cls.light_blue
         ]
